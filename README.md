@@ -3,7 +3,13 @@
 Hi! This repo contains a number of solutions to Codeforces problems written in V for demonstrational purposes. They're in `solutions` folder. Feel free to PR your solutions!
 
 ## Simple setup
-1. Complete steps 1, 2, 7, 8 from [Setup](./README.md#setup)
+1. Install **V** ([link](https://github.com/vlang/v#installing-v---from-source-preferred-method))
+1. Symlink the compiler ([link](https://github.com/vlang/v#symlinking))
+1. Open terminal with `Ctrl` + `Alt` + `T`
+1. Clone this repository
+    ```sh
+    git clone https://github.com/br4ch1st0chr0n3/vforces
+    ```
 1. Change current directory to `vforces`
     ```sh
     cd vforces
@@ -12,10 +18,12 @@ Hi! This repo contains a number of solutions to Codeforces problems written in V
     ```sh
     v watch -s -c run ./solutions/1661D/_test.v 0
     ```
-    Where `0` is the test number. Add more test and list ones that you want to run, e.g. `0 1 2`
+    Where `0` is the test number. Add more tests and list ones that you want to run, e.g. `0 1 2`
 1. Tests should be called
 * `test.in` - test input
 * `test.ans` - correct answer
+1. Try to edit `solutions/1661D/sol.v` in your favorite editor. Tests will reload in the terminal
+1. Please note, this is just a demo setup, not an optimal way to test your solutions!
 
 ## Setup
 I use VS Code with an awesome **acmX** [extension](https://marketplace.visualstudio.com/items?itemName=marx24.acmx) on Ubuntu 20.04. Here's their [GitHub](https://github.com/mfornet/acmx)
