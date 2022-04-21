@@ -1,6 +1,6 @@
 # Vforces
 
-Hi! Here's a list of solutions to Codeforces problems written in V for demonstrational purposes.
+Hi! This repo contains a number of solutions to Codeforces problems written in V for demonstrational purposes. They're in `./solutions/`.
 
 ## Setup
 I use VS Code with an awesome **acmX** [extension](https://marketplace.visualstudio.com/items?itemName=marx24.acmx) on Ubuntu 20.04. Here's their [GitHub](https://github.com/mfornet/acmx)
