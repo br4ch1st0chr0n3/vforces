@@ -27,6 +27,7 @@ I use VS Code with an awesome **acmX** [extension](https://marketplace.visualstu
     code vforces
     ```
 1. Go to Extensions (looks like blocks in the sidebar)
+1. Type `V`, press, on it, select one with 11K+ installs, click `Install`
 1. Type `acmX`, press on it, click `Install`
 1. While on this extension page, click on the `gear icon` -> `Extension settings`
 1. Scroll down until `Acmx › Template: Solution Path`
