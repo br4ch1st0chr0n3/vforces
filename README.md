@@ -51,3 +51,14 @@ I use VS Code with an awesome **acmX** [extension](https://marketplace.visualstu
 1. Copy code from this repository, from `solutions/1661D.v` into this newly opened `sol.v`
 1. While in `sol.v`, open Command Palette with `Ctrl` + `Shift` + `P`, type `ACMX: Run`
 1. Tests passed!
+
+## Dev
+While you're writing your code, you may want to see compilation messages on changes
+* In VS Code, open terminal with `Ctrl` + `Shift` + `` ` ``
+* Run V compiler in watch mode on your file. Provide actual path to file instead of just `sol.v`
+```sh
+v watch run sol.v
+```
+
+## Troubleshooting
+* See acmX [documentation](https://github.com/mfornet/acmx#documentation)
