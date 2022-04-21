@@ -68,20 +68,25 @@ I use VS Code with an awesome **acmX** [extension](https://marketplace.visualstu
     * Next time, if you want to edit it, open Command Palette with `Ctrl` + `Shift` + `P`, then type `acmx edit`, then choose `vlang`
     * IDK why but they need all commands to be split into separate strings.
 1. Time to run our solutions! Open a Codeforces problem, say [1661D](https://codeforces.com/problemset/problem/1661/D)
-1. Press on Competitive Companion extension
+1. Parse problem with Competitive Companion extension
 1. VS Code opens with full setup!
-1. Open `sol.v`
+1. Open `sol.v` there
 1. Copy code from this repository, from `solutions/1661D.v` into this newly opened `sol.v`
 1. While in `sol.v`, open Command Palette with `Ctrl` + `Shift` + `P`, type `ACMX: Run`
 1. Tests passed!
 
 ## Dev
 While you're writing your code, you may want to see compilation messages on changes
-* In VS Code, open terminal with `Ctrl` + `Shift` + `` ` ``
-* Run V compiler in watch mode on your file. Provide actual path to file instead of just `sol.v`
-```sh
-v watch run sol.v
-```
+1. In VS Code, open terminal with `Ctrl` + `Shift` + `` ` ``
+1. `cd` to the folder with `sol.v`
+1. Run V compiler in watch mode on your file. Provide actual path to the file instead of just `sol.v`
+    ```sh
+    v watch run sol.v
+    ```
+    * Learn more about this mode with
+    ```sh
+    v -help watch
+    ```
 
 ## Troubleshooting
 * See acmX [documentation](https://github.com/mfornet/acmx#documentation)
