@@ -2,6 +2,21 @@
 
 Hi! This repo contains a number of solutions to Codeforces problems written in V for demonstrational purposes. They're in `solutions` folder. Feel free to PR your solutions!
 
+## Simple setup
+1. Complete steps 1, 2, 7, 8 from [Setup](./README.md#setup)
+1. Change current directory to `vforces`
+    ```sh
+    cd vforces
+    ```
+1. Now, run
+    ```sh
+    v watch -s -c run ./solutions/1661D/_test.v 0
+    ```
+    Where `0` is the test number. Add more test and list ones that you want to run, e.g. `0 1 2`
+1. Tests should be called
+* `test.in` - test input
+* `test.ans` - correct answer
+
 ## Setup
 I use VS Code with an awesome **acmX** [extension](https://marketplace.visualstudio.com/items?itemName=marx24.acmx) on Ubuntu 20.04. Here's their [GitHub](https://github.com/mfornet/acmx)
  
@@ -62,3 +77,4 @@ v watch run sol.v
 
 ## Troubleshooting
 * See acmX [documentation](https://github.com/mfornet/acmx#documentation)
+* For now, V doesn't have [scanf](https://github.com/vlang/v/discussions/14086), but you can create your workarounds, considering the specifics of Codeforces.
