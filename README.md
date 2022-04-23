@@ -14,7 +14,7 @@ Hi! This repo contains a number of solutions to Codeforces problems written in V
     ```sh
     cd vforces
     ```
-1. Now, run
+1. Now, run. This will re-run your code on changes
     ```sh
     v watch -s -c run ./solutions/1661D/_test.v 0
     ```
@@ -71,22 +71,14 @@ I use VS Code with an awesome **acmX** [extension](https://marketplace.visualstu
 1. Parse problem with Competitive Companion extension
 1. VS Code opens with full setup!
 1. Open `sol.v` there
-1. Copy code from this repository, from `solutions/1661D.v` into this newly opened `sol.v`
+1. Copy code from this repository, from `solutions/1661D/sol.v` into this newly opened `sol.v`
 1. While in `sol.v`, open Command Palette with `Ctrl` + `Shift` + `P`, type `ACMX: Run`
 1. Tests passed!
 
-## Dev
-While you're writing your code, you may want to see compilation messages on changes
-1. In VS Code, open terminal with `Ctrl` + `Shift` + `` ` ``
-1. `cd` to the folder with `sol.v`
-1. Run V compiler in watch mode on your file. Provide actual path to the file instead of just `sol.v`
-    ```sh
-    v watch run sol.v
-    ```
-    * Learn more about this mode with
-    ```sh
-    v -help watch
-    ```
+## binary-heap-benchmark
+* See [simple setup](README.md#simple-setup), but instead of `1661D` type `binary-heap-benchmark`
+* Running 9 times on an array with 1e8 elements shows `Sorted on average in 746 ms`
+* The solution is [here](./solutions/binary-heap-benchmark/sol.v)
 
 ## Troubleshooting
 * See acmX [documentation](https://github.com/mfornet/acmx#documentation)
