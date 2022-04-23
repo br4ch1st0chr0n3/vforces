@@ -79,6 +79,10 @@ I use VS Code with an awesome **acmX** [extension](https://marketplace.visualstu
 * See [simple setup](README.md#simple-setup), but instead of `1661D` type `binary-heap-benchmark`
 * Running 9 times on an array with 1e8 elements shows `Sorted on average in 746 ms`
 * The solution is [here](./solutions/binary-heap-benchmark/sol.v)
+* Compile the program to check its syntax
+    ```
+    v solutions/binary-heap-benchmark/sol.v
+    ```
 
 ## Troubleshooting
 * See acmX [documentation](https://github.com/mfornet/acmx#documentation)
