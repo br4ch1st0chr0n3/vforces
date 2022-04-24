@@ -59,7 +59,7 @@ fn run_test() time.Duration{
 		c.push_down(0, i)
 	}
 	for i in 0..max_n {
-		assert(c.h[i] == i)
+		assert c.h[i] == i
 	}
 
 	finish := time.now()
@@ -73,5 +73,5 @@ fn main() {
 		average += run_test().milliseconds()
 	}
 	average /= n
-	print("\nDone on average in ${average:.2} ms")
+	print("\nDone on average in ${average:.2} ms\n")
 }

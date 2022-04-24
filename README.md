@@ -77,7 +77,7 @@ I use VS Code with an awesome **acmX** [extension](https://marketplace.visualstu
 
 ## binary-heap-benchmark
 This is a benchmark for [@MikeMirzayanov](https://github.com/MikeMirzayanov)'s [binary-heap-benchmark](https://github.com/MikeMirzayanov/binary-heap-benchmark)
-* See [simple setup](README.md#simple-setup) and then run to auto-reload the solution on changes
+* See [simple setup](README.md#simple-setup) and then run to auto-reload the solution on code changes
     ```sh
     v watch -s -c run ./solutions/binary-heap-benchmark/sol.v
     ```
