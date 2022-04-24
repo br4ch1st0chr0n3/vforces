@@ -73,5 +73,5 @@ fn main() {
 		average += run_test().milliseconds()
 	}
 	average /= n
-	print("\nSorted on average in ${average:.2} ms")
+	print("\nDone on average in ${average:.2} ms")
 }

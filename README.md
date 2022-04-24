@@ -77,8 +77,11 @@ I use VS Code with an awesome **acmX** [extension](https://marketplace.visualstu
 
 ## binary-heap-benchmark
 This is a benchmark for [@MikeMirzayanov](https://github.com/MikeMirzayanov)'s [binary-heap-benchmark](https://github.com/MikeMirzayanov/binary-heap-benchmark)
-* See [simple setup](README.md#simple-setup), but instead of `1661D` type `binary-heap-benchmark`
-* Running 9 times on an array with 1e8 elements shows `Sorted on average in 746 ms`
+* See [simple setup](README.md#simple-setup) and then run to auto-reload the solution on changes
+    ```sh
+    v watch -s -c run ./solutions/binary-heap-benchmark/sol.v
+    ```
+* Running 9 times on an array with 1e8 elements shows `Done on average in 746 ms`
 * The solution is [here](./solutions/binary-heap-benchmark/sol.v)
 * Compile the program to check its syntax 
     ```
