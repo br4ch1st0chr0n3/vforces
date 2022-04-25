@@ -79,9 +79,9 @@ I use VS Code with an awesome **acmX** [extension](https://marketplace.visualstu
 This is a benchmark for [@MikeMirzayanov](https://github.com/MikeMirzayanov)'s [binary-heap-benchmark](https://github.com/MikeMirzayanov/binary-heap-benchmark)
 * See [simple setup](README.md#simple-setup) and then run to auto-reload the solution on code changes
     ```sh
-    v watch -s -c run ./solutions/binary-heap-benchmark/sol.v
+    v watch -s -c -prod run solutions/binary-heap-benchmark/sol.v
     ```
-* Running 9 times on an array with 1e7 elements shows `Done on average in 9799 ms`
+* Running 10 times on an array with 1e7 elements shows `Done on average in 738.40 ms`
 * The solution is [here](./solutions/binary-heap-benchmark/sol.v)
 * Compile the program to check its syntax 
     ```

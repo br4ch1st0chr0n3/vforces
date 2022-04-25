@@ -13,8 +13,10 @@ struct Context {
 		h []int = []int{len: max_n, init: it}
 }
 
-// control a function's context
 
+// don't check bounds - see https://github.com/vlang/v/blob/master/doc/docs.md#performance-tuning
+[direct_array_access]
+// control a function's context
 fn (mut c Context) push_down(pos int, n int) {
 	mut p := pos
 	for 2 * p + 1 < n {
@@ -52,7 +54,7 @@ fn run_test() time.Duration{
 
 fn main() {
 	mut average := 0.0
-	n := 1
+	n := 10
 	for _ in 0..n {
 		average += run_test().milliseconds()
 	}
