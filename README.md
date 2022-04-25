@@ -81,7 +81,7 @@ This is a benchmark for [@MikeMirzayanov](https://github.com/MikeMirzayanov)'s [
     ```sh
     v watch -s -c run ./solutions/binary-heap-benchmark/sol.v
     ```
-* Running 9 times on an array with 1e8 elements shows `Done on average in 746 ms`
+* Running 9 times on an array with 1e7 elements shows `Done on average in 9799 ms`
 * The solution is [here](./solutions/binary-heap-benchmark/sol.v)
 * Compile the program to check its syntax 
     ```
